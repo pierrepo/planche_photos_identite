@@ -6,6 +6,6 @@ Utilisation :
 
 	creation_planche_photos.sh bob.jpg
 
-Va produire la planche de photos bob_planche.jpg avec 8 fois la photo bob.jpg.
+Va produire la planche de photos bob_planche.jpg avec 8 fois la photo bob.jpg. Il est essentiel que le ratio largeur / hauteur de la photo initiale soit 35 / 45. 
 
-
+![Planche de photos avec bob](bob_planche.jpg)
