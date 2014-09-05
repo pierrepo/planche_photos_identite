@@ -50,8 +50,9 @@ fi
 output="${1%.jpg}_planche.jpg"
 echo "Création de la planche d'images $output à partir de $1"
 
-# la photo d'identité finale fera 840 x 1080 px
-# la planche de photos finale fera 2400 x 3600 px
+# pour une très bonne qualité d'impression, 
+# la photo d'identité initiale doit mesurer au moins 840 x 1080 px
+
 montage             \
   -tile 4x2          \
   -geometry  840x1080+30+60 $1 $1 $1 $1 $1 $1 $1 $1 \
